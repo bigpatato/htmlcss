@@ -1,1 +1,76 @@
-/* css */
+/*css*/
+
+body {
+    margin:0px;
+    padding:0px;
+}
+
+#header:hover, h1:hover, a:hover{
+    background-color:blue;
+    margin:20px;
+}
+
+#page {
+    padding:40px;
+}
+
+#header {
+    background-color:gray; /* this changes the background color to gray */
+    margin:0px;
+     color:blue;
+}
+
+#header h1 {
+    padding:20 top/bottom;
+    margin:0px;
+    font-family:Verdana;
+    font-size:60pt;
+}
+
+#footer a {
+    text-decoration:none;
+    color:white;
+}
+
+#footer {
+    background-color:black;
+    color:white;
+    margin:0px;
+    padding:20px 40px;
+}
+
+#spotlight {
+    border-width:15px;
+    border-color:pink;
+    border-style:solid;
+    background-color:pink;
+    margin:15px;
+}
+
+/*navigation*/#nav, #nav a { 
+    background-color:#ccc; /* this changes the background color to #ccc */ 
+    padding:10px;
+}
+
+#nav a {
+    margin:0px;
+    color:black;
+    font-family:arial;
+    text-decoration:none; /* this changes the way the text looks like*/
+} 
+
+#nav a:hover {
+    background-color:#aaaaff; /* this changes the background color to #aaaff */
+    color:white;
+}/*end navigation*/
+
+#header {
+    background-color:blue;
+    width:400px;
+    padding:20 top/bottom;
+}
+
+#header:hover {
+    background-color:red; /* this changes the background color to pink*/
+    transition: background-color 2s; /* this changes the color of a certain theme when mouse hovers over it */
+}
